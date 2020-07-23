@@ -59,6 +59,7 @@ body > main {
 
 }
 
+
 .banner {
     width: 100%;
     display: flex;
@@ -67,6 +68,10 @@ body > main {
 
 .banner_image > img{
     height: 20vh;
+
+    border-radius: 5px;
+
+    box-shadow: 1px 0px 3px 2px rgba(0,0,0,0.05);
 
     margin-left: 20px;
 }
