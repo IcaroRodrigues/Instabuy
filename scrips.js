@@ -7,8 +7,6 @@ fetch('https://api.instabuy.com.br/apiv3/layout?subdomain=organicos', {
         const products = data.data.collection_items
         const banners = data.data.banners
 
-        console.log(products)
-
         document.getElementById('banners').innerHTML =
 
             `${banners.map(banner => (
@@ -42,6 +40,4 @@ fetch('https://api.instabuy.com.br/apiv3/layout?subdomain=organicos', {
                 )).join('')
             )).join('')
             }`
-
-
     })
