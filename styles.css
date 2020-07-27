@@ -24,13 +24,19 @@ body > main {
 
     font-family: 'Questrial', sans-serif;
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
 
     font-size: 2.0rem;
     
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.header img {
+
+    width: 15vw;
+    height: 6vh;
 }
 
 .banners_header {
@@ -177,6 +183,11 @@ body > main {
 
 @media ( max-width: 1266px) {
 
+    .header img {
+
+        width: 20vw;
+    }
+
     .banner {
     
         flex-direction: column;
@@ -191,6 +202,12 @@ body > main {
 }
 
 @media ( max-width: 859px ) {
+
+
+    .header img {
+
+        width: 30vw;
+    }
 
     .banner {
         width: 100%;
