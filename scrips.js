@@ -38,7 +38,7 @@ try {
                     <div class="card_body">
                         ${item.brand === undefined ? '' : `<p><strong>Marca: </strong>${item.brand}</p>`}
                         <p><strong>Nome: </strong>${item.name}</p>
-                        <p><strong>Preço: </strong> R$ ${item.prices[0].price} ${item.unit_type === "UNI" ? 'Uni.' : 'Kg.'}</p>
+                        <p><strong>Preço: </strong> R$ ${item.prices[0].price.toFixed(2)} ${item.unit_type === "UNI" ? 'Uni.' : 'Kg.'}</p>
                     </div>
                     
                     </div>`
