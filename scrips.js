@@ -7,9 +7,6 @@ try {
     }).then(res => res.json())
         .then(data => {
 
-            console.log(data)
-
-
             const products = data.data.collection_items
             const banners = data.data.banners
 
@@ -49,6 +46,6 @@ try {
 
 } catch (error) {
 
-    console.log(`error`)
+    alert('Não foi possivel acessar o servidor, tente novamente mais tarde.')
 }
 
